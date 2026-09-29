@@ -59,7 +59,18 @@ Expected layout of `SARKOPENI_DIR`: `DATA/<patient>/CT*.dcm + struct*.dcm`, `Has
 
 ![Training curves](figures/Figure2.png)
 
-Figures containing CT images (pipeline overview and example segmentations) are omitted until publication.
+### Example predictions (`results/images/`)
+
+Centre-slice outputs for 24 test patients, named with the same random study IDs as `results/test_results_per_patient.csv` (no names or identifiers):
+
+| File | Content |
+|---|---|
+| `Txx_prediction.png` | Model prediction (orange) overlaid on CT |
+| `Txx_overlap.png` | Overlap with the reference: green = true positive, red = false positive, blue = false negative |
+| `Txx_overlap_magnifiedN.png` | Magnified view of the overlap |
+| `Txx_prediction_binary.png` | Binary prediction mask (white = muscle) |
+
+![Example](results/images/T01/T01_overlap.png)
 
 ## License
 
