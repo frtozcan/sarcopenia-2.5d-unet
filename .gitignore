@@ -1,0 +1,24 @@
+# ---- Hasta verisi: ASLA depoya eklenmez / patient data is never committed ----
+*.dcm
+*.DCM
+*.dicom
+*.ima
+*.nii
+*.nii.gz
+*.nrrd
+*.mha
+*.mhd
+*.npy
+*.npz
+DATA/
+Data/
+Data2/
+output/
+sonuc/
+*.xlsx
+*.xls
+# Python / IDE
+__pycache__/
+*.pyc
+.spyproject/
+.ipynb_checkpoints/

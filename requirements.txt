@@ -1,0 +1,10 @@
+tensorflow==2.10.0
+numpy<2
+pandas
+pydicom
+scikit-image
+scipy
+opencv-python
+matplotlib
+openpyxl
+tqdm

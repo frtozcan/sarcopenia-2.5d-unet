@@ -1,0 +1,20 @@
+{
+  "model": "unet25d_512_20260928_1700",
+  "test_set": {"patients": 29, "slices": 625},
+  "segmentation": {
+    "dice_mean": 0.932, "dice_sd": 0.016, "dice_95ci": [0.926, 0.938], "dice_range": [0.880, 0.954],
+    "iou_mean": 0.873, "iou_sd": 0.027,
+    "sensitivity_mean": 0.958, "specificity_mean": 0.996, "precision_mean": 0.908
+  },
+  "smi_agreement": {
+    "manual_mean_sd": [58.0, 13.1], "automated_mean_sd": [61.0, 13.1],
+    "pearson_r": 0.991, "spearman_rho": 0.990, "icc_2_1": 0.965,
+    "bias": 3.07, "bias_95ci": [2.39, 3.74], "limits_of_agreement": [-0.42, 6.56],
+    "mae": 3.10, "mape_percent": 5.7
+  },
+  "classification": {
+    "prado_2008": {"TP": 9, "FN": 0, "FP": 0, "TN": 20, "sensitivity": 1.0, "specificity": 1.0, "kappa": 1.0, "auc": 1.0},
+    "martin_2013": {"TP": 2, "FN": 2, "FP": 0, "TN": 25, "sensitivity": 0.5, "specificity": 1.0, "accuracy": 0.931, "kappa": 0.63, "auc": 0.97},
+    "cutoff_49_31": {"TP": 5, "FN": 2, "FP": 0, "TN": 22, "sensitivity": 0.714, "specificity": 1.0, "accuracy": 0.931, "kappa": 0.79, "auc": 0.99}
+  }
+}

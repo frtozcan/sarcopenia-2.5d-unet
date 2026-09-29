@@ -1,0 +1,13 @@
+{
+  "model_adi": "unet25d_512_20260928_1700",
+  "img_boyut": 512,
+  "batch_size": 2,
+  "epochs_calisilan": 43,
+  "en_iyi_epoch": 28,
+  "val_dice": 0.9322,
+  "val_iou": 0.8736,
+  "val_loss": 0.0638,
+  "pos_weight": 8.0,
+  "temel_filtre": 32,
+  "lr": 0.0001
+}
