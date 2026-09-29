@@ -1,4 +1,4 @@
-characteristic,training_n120,test_n29
+characteristic,training_n120,test_n30
 age_years_mean_sd,63.7 ± 10.0,62.9 ± 12.7
 sex_male_female,103 / 17,24 / 5
 height_cm_mean_sd,169.9 ± 8.3 (n=111),167.9 ± 9.0

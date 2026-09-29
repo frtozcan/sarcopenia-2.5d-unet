@@ -1,6 +1,6 @@
 {
   "model": "unet25d_512_20260928_1700",
-  "test_set": {"patients": 29, "slices": 625},
+  "test_set": {"examinations": 30, "slices": 652},
   "segmentation": {
     "dice_mean": 0.932, "dice_sd": 0.016, "dice_95ci": [0.926, 0.938], "dice_range": [0.880, 0.954],
     "iou_mean": 0.873, "iou_sd": 0.027,

@@ -17,7 +17,7 @@ Code, trained model and anonymised results for automated multi-slice skeletal mu
 
 HU values are clipped to [−29, 150] and scaled to [0, 1]. Sarcopenia is defined with the Prado et al. (2008) cut-offs (men < 52.4, women < 38.5 cm²/m²).
 
-## Results (held-out test set, 29 patients, 625 slices)
+## Results (held-out test set: 30 CT examinations, 652 slices)
 
 | Metric | Value |
 |---|---|
